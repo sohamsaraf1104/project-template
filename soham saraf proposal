@@ -1,0 +1,88 @@
+# Project Name Here
+This project uses traffic times, flight trends, and general travel patterns to predict security wait times at the Nashville International Airport (BNA). 
+Project Notes:
+
+- Please remember to keep your repo private when you create it from this template.
+- Be sure to create your report in the **intro-gen-ai** organization. 
+- The name of the repo should be the name of the project, or a shortened version of the name.
+- Each section should be completed by the deadline indicated. You submit by making a commit of this README.md file. Except for minor edits, please do no change the Proposal, Goals, or Metrics sections after the submission deadline.
+- General guidance on formatting writing in markdown files (like this README.md file) is at https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.
+- There is a [recording of the the class discussion on the use of this template](https://vanderbilt.zoom.us/rec/share/RjihScz0Ti7RId0KMj7GWBc8XueS571_JnFqDQwli0AuKLsgaau0j_RcphBjwYtV.HP10ROf2TwPUn6TA?startTime=1697553005000).
+- You can sign up for a time to discuss your ideas for the project at https://calendly.com/jesse-spencer-smith. We'll also be discussing project in class on Tuesday after Fall Break.
+- Remember that there is an AI Showcase on April 19 (with prizes for Best in Show), so you might want to consider completing your project by then. 
+
+## Project PI/Project Team 
+**Due March 21, 11:59pm**
+
+Soham Saraf, soham.s.saraf@vanderbilt.edu, sarafss, PI
+
+## Project Proposal 
+**Due March 21, 11:59pm**
+
+300-1000 words total across all of the sections below
+
+### Description of Problem/Opportunity
+An issue that faces all travelers when traveling is when to leave for the airport to board their flight on time. There is no straightforward algorithm to determine how to reach the airport in such a way as to minimize the amount of time spent waiting to board. This program will work to curb Dads' enthusiasm for leaving for the airport too early or too late.  
+
+### Proposed Solution/Approach
+This program will utilize traffic, travel, and flight patterns to determine the optimal time to leave for the airport to spend the least amount of time waiting in lines. This data will be input into an algorithm that utilizes travel time, passenger congestion at the airport within security and check-in lines, and flight congestion at the airport. This algorithm will use both historical and real-time data to determine the amount of time needed to be spent at the airport before boarding one's flight and the expected transport time to the airport. Using these two values, the algorithm will determine when the user should leave for the airport to have the most efficient process at BNA. 
+
+### Project Outline and Timeline
+1. Creating an outline of the algorithm used to predict the travel time and time needed to be spent at BNA (23th - 27th)
+2. Establish access to real-time data or historical data to determine patterns for travel time and wait time at the airport (28th - 4th)
+3. Create algorithm and test using random data combinations to test for accuracy (5th - 12th)
+4. Use real situations to determine real-time accuracy (13th - 20th)
+
+## Goals of project 
+**Due March 21, 11:59pm**
+
+Describe 1-5 goals of the project. 
+1. To create a dynamic model that accurately predicts travel time to the airport, incorporating various factors such as current traffic conditions, historical traffic data, time of day, day of the week, and any special events that may impact travel time. This model should be adaptable to real-time data to offer the most current recommendations.
+2. To accurately estimate wait times at the airport, including security checks, check-in counters, and any other pre-boarding processes that could affect the traveler's required arrival time at the airport.
+3. To develop an accessible, intuitive application that utilizes the travel and wait time prediction models to recommend the best departure times. This app should be tested in real-world scenarios to validate its accuracy and user satisfaction.
+
+## Project Metrics 
+**Due March 21, 11:59pm**
+
+Compose 2-5 metrics to determine the success of the project. These should be measureable, and should translate to a letter grade for each. 
+Metric 1: Accuracy of Travel Time Predictions - The percentage of predictions that fall within a 10-minute margin of actual travel time to the airport. Calculate the difference between predicted and actual travel times for users and determine the percentage of predictions within a ±10-minute accuracy window.
+A: 90-100%
+B: 80-89%
+C: 70-79%
+D: 60-69%
+F: Below 60%
+
+Metric 2: Accuracy of Wait Time Predictions at the Airport - The percentage of predictions for security, check-in, and other airport processes that are within a 10-minute accuracy margin of the actual wait times experienced by users. Calculate the difference between predicted wait times and actual wait times reported by users, determining the percentage of predictions that are accurate within ±10 minutes.
+A: 90-100%
+B: 80-89%
+C: 70-79%
+D: 60-69%
+F: Below 60%
+
+Metric 3: Real-Time Adjustment Efficiency - The system's ability to adjust predictions based on real-time data updates, such as sudden traffic changes or delays. Measure the latency between a significant real-time event (e.g., an accident causing traffic delays) and the system's update of travel time predictions. Lower latency indicates higher efficiency.
+A: Updates within 5 minutes
+B: Updates within 10 minutes
+C: Updates within 15 minutes
+D: Updates within 20 minutes
+F: Updates in more than 20 minutes
+
+## Self-Evaluation
+**Due April 26, 11:59pm**
+
+300-1000 words
+
+Address each of the goals, and assess each of the metrics. Include a statement on each on what you achieved or did not achieve, give support for your assessments.
+
+## Reflection on Learning
+**Due April 26, 11:59pm**
+
+500-1000 words
+
+What do you take away from the project? Has this changed how you understand AI? Does and how does this affect future plans for learning, work, or otherwise?
+
+## What's Next?
+**Due April 22, 11:59pm**
+
+100-500 words
+
+Do you plan on continuing the project? What will you do with what you've learning?
